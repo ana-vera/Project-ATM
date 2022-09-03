@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login/login.css">
+    <title>ATM - Ana Vera</title>
+</head>
+<body>
+
+    
+    <h1>A T M</h1>
+    <span>username: user     //     password: pwd</span>
+    <form id="form" action="">
+        <h2>Log In</h2>
+
+        <label for="user">Username</label>
+        <input type="text" placeholder="Enter your username" id="user">
+        <span class="hide" id="userBlank">Please enter your username</span>
+        <span class="hide" id="userNotFound">This username is not registered.</span>
+
+        <label for="pwd">Password</label>
+        <input type="password" placeholder="Enter your password" id="pwd">
+        <span class="hide" id="pwdBlank">Please enter your password.</span>
+        <span class="hide" id="pwdNotFound">Incorrect password.</span>
+
+        <button id="btn" class="btn" type="submit">Log In</button>
+    </form>
+    
+
+    
+
+    <script src="./login/login.js"></script>
+    
+</body>
+</html>

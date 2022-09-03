@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM - Withdraw</title>
+    <link rel="stylesheet" href="./withdraw.css">
+</head>
+<body>
+    <h1>ATM - Withdraw</h1>
+    <form action="" class="main" id="form">
+        <span id="span-balance">Current balance</span>
+        <div><h2>$</h2><h2 id="balance"></h2></div>
+        
+        <label for="amount">Enter the amount you want to withdraw</label>
+        <input type="number" id="withdraw">
+        <span class="hide" id="notEnoughMoney">Not enough money. Try a smaller amount.</span>
+        <span class="hide" id="span-retrieve" class="display-retrieve">Please retrieve cash. Thank you.</span>
+        <button type="submit" class="btn">OK</button>
+    </form>
+
+    <button type="button" class="btn2" onclick="goBack()">Go back</button>
+</body>
+
+<script src="./withdraw.js"></script>
+</html>
